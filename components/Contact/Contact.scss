@@ -1,0 +1,15 @@
+.contact {
+    padding: 100px 0;
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fab {
+            font-size: 2rem;
+            padding: 10px;
+            color: #183db4;
+        }
+    }
+}

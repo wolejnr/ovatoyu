@@ -1,0 +1,27 @@
+header {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 30px 0;
+    background: rgba(24,61,180,0.9);
+    color: #fff;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+
+    .header {
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__links {
+            a {
+                padding: 10px 20px;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
