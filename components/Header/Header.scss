@@ -23,5 +23,37 @@ header {
                 }
             }
         }
+
+        &__mobile-menu {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        .header {
+            &__links {
+                display: none;
+            }
+            &__mobile-menu {
+                display: flex;
+                position: relative;
+                &:hover {
+
+                }
+            }
+            &__mobile-links {
+                position: absolute;
+                left: -80px;
+                top: 52px;
+                padding-left: 0;
+
+                li {
+                    padding: 10px 15px;
+                    background: #3a3a3a;
+                }
+            }
+        }
     }
 }
