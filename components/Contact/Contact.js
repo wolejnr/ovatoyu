@@ -10,7 +10,7 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <p>
-                            Want to get in touch with us? Visit us on our various social media handles.
+                            Want to get in touch with us? Email us or Visit our various social media handles.
                         </p>
                     </div>
                 </div>
