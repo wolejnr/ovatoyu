@@ -24,7 +24,7 @@ export default function Header() {
                     <i className="fas fa-bars"></i>
                 </div>
             </div>
-            <div className="header__mobile-menu active">
+            <div className="header__mobile-menu">
                 <a href="#">Home</a>
                 <a href="#feature">Features</a>
                 <a href="#about">About</a>

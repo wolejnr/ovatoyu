@@ -27,6 +27,10 @@ header {
         &__mobile-btn {
             display: none;
         }
+
+        &__mobile-menu {
+            display: none;
+        }
     }
 }
 
@@ -43,6 +47,7 @@ header {
                 
             }
             &__mobile-menu {
+                display: block;
                 position: absolute;
                 left: 0;
                 top: 0;
