@@ -24,7 +24,7 @@ export default function Header() {
             </div>
             <div className={`header__mobile-menu ${activeClass}`}>
                 <a href="#">Home</a>
-                <a href="#feature">App Features</a>
+                <a href="#feature">Features</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </div>
