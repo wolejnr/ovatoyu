@@ -1,9 +1,9 @@
-import {useEffect} from 'react';
+//import {useEffect} from 'react';
 
 export default function Header() {
-    useEffect(() => {
-        let mobileMenu = document.getElementsByClassName('header__mobile-menu');
-    })
+    
+    let mobileMenu = document.getElementsByClassName('header__mobile-menu');
+    
     
     var clickedBtn = function(){
         mobileMenu[0].classList.toggle('active')
