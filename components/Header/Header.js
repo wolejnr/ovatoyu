@@ -1,4 +1,15 @@
 export default function Header() {
+    // let menuBtn = document.getElementsByClassName('header__mobile-btn');
+    let mobileMenu = document.getElementsByClassName('header__mobile-menu');
+
+    var clickedBtn = function(){
+        mobileMenu[0].classList.toggle('active')
+    }
+    
+    // menuBtn[0].addEventListener('click', clickedBtn)
+    
+    // console.log(menuBtn[0])
+
     return(
         <header>
             <div className="container header__container">
@@ -9,15 +20,15 @@ export default function Header() {
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <div className="header__mobile-menu">
+                <div className="header__mobile-btn" onClick={clickedBtn}>
                     <i className="fas fa-bars"></i>
-                    <ul className="header__mobile-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#feature">Features</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
                 </div>
+            </div>
+            <div className="header__mobile-menu active">
+                <a href="#">Home</a>
+                <a href="#feature">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </div>
         </header>
     )

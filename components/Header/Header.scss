@@ -24,7 +24,7 @@ header {
             }
         }
 
-        &__mobile-menu {
+        &__mobile-btn {
             display: none;
         }
     }
@@ -36,23 +36,28 @@ header {
             &__links {
                 display: none;
             }
-            &__mobile-menu {
+            &__mobile-btn {
                 display: flex;
                 position: relative;
-                &:hover {
+                font-size: 1.7rem;
+                
+            }
+            &__mobile-menu {
+                position: absolute;
+                left: 0;
+                top: 0;
+                padding-left: 0;
+                width: 50%;
+                transform: translate3d(-100%,0,0);
 
+                a {
+                    padding: 15px 20px;
+                    background: #3a3a3a;
+                    display: flex;
                 }
             }
-            &__mobile-links {
-                position: absolute;
-                left: -80px;
-                top: 52px;
-                padding-left: 0;
-
-                li {
-                    padding: 10px 15px;
-                    background: #3a3a3a;
-                }
+            &__mobile-menu.active {
+                transform: translate3d(0,0,0);
             }
         }
     }
