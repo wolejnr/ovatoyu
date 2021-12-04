@@ -1,12 +1,11 @@
-//import {useEffect} from 'react';
+import {useState} from 'react';
 
 export default function Header() {
-    
-    let mobileMenu = document.getElementsByClassName('header__mobile-menu');
-    
+    const [isActive, setIsActive] = useState(false);
+    const activeClass = isActive ? `active` : ``;
     
     var clickedBtn = function(){
-        mobileMenu[0].classList.toggle('active')
+        setIsActive(!isActive)
     }
 
     return(
@@ -19,11 +18,11 @@ export default function Header() {
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <div className="header__mobile-btn" onClick={clickedBtn}>
+                <div className={`header__mobile-btn`} onClick={clickedBtn}>
                     <i className="fas fa-bars"></i>
                 </div>
             </div>
-            <div className="header__mobile-menu">
+            <div className={`header__mobile-menu ${activeClass}`}>
                 <a href="#">Home</a>
                 <a href="#feature">App Features</a>
                 <a href="#about">About</a>
