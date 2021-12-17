@@ -20,8 +20,8 @@ export default function Contact() {
                     {/*<div className="text-center">
                         <i className="fab fa-twitter"></i>
                     </div>*/}
-                    <Link href="https://www.facebook.com/Ovatoyu-107055855167039" target="_blank">
-                    <a className="text-center">
+                    <Link href="https://www.facebook.com/Ovatoyu-107055855167039">
+                    <a className="text-center" target="_blank">
                         <i className="fab fa-facebook"></i>
                     </a>
                     </Link>
