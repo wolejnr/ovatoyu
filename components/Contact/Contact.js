@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Contact() {
     return(
         <div id="contact" className="contact">
@@ -15,15 +17,17 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact__socials">
-                    <div className="text-center">
+                    {/*<div className="text-center">
                         <i className="fab fa-twitter"></i>
-                    </div>
-                    <div className="text-center">
+                    </div>*/}
+                    <Link href="https://www.facebook.com/Ovatoyu-107055855167039">
+                    <a className="text-center">
                         <i className="fab fa-facebook"></i>
-                    </div>
-                    <div className="text-center">
+                    </a>
+                    </Link>
+                    {/*<div className="text-center">
                         <i className="fab fa-instagram"></i>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         </div>
