@@ -1,12 +1,12 @@
-// import Image from 'next/image';
-// import feature1Pic from '../../public/nappy.jpg';
-// import feature2Pic from '../../public/thirdman.jpg';
-// import feature3Pic from '../../public/olanma.jpg';
-// import feature4Pic from '../../public/tracy.jpg';
-// import feature5Pic from '../../public/theo.jpg';
-// import feature6Pic from '../../public/anastasia.jpg';
-// import feature7Pic from '../../public/ivan.jpg';
-// import feature8Pic from '../../public/andrea.jpeg';
+import Image from 'next/image';
+import feature1Pic from '../../public/nappy.jpg';
+import feature2Pic from '../../public/thirdman.jpg';
+import feature3Pic from '../../public/olanma.jpg';
+import feature4Pic from '../../public/tracy.jpg';
+import feature5Pic from '../../public/theo.jpg';
+import feature6Pic from '../../public/anastasia.jpg';
+import feature7Pic from '../../public/ivan.jpg';
+import feature8Pic from '../../public/andrea.jpeg';
 
 export default function Features() {
     return(
