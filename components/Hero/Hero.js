@@ -5,7 +5,7 @@ export default function Hero() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-9">
-                            <h1>Keeping you connected</h1>
+                            <h1>Ovatoyu Pay</h1>
                         </div>
                     </div>
                 </div>
